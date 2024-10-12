@@ -137,5 +137,39 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232565.83038806362!2d54.55862045!3d24.386830550000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e440f723ef2b9%3A0xc7cc2e9341971108!2sAbu%20Dabi%20-%20Emiratos%20%C3%81rabes%20Unidos!5e0!3m2!1ses!2smx!4v1718304089906!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </section>
+
+<!-- Sección de Contacto -->
+<section id="seccion-contacto" class="border-bottom border-secondary border-2">
+    <!-- Fondo decorativo SVG -->
+    <div id="bg-contactos">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b2a4e" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    </div>
+
+    <div class="container border-top border-primary" style="max-width: 500px" id="contenedor-formulario">
+      <div class="text-center mb-4" id="titulo-formulario">
+        <!-- Logo -->
+        <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Abu_Dhabi_Logo.svg/1024px-Abu_Dhabi_Logo.svg.png" alt="" class="img-fluid ps-5"></div>
+        <h2>Contactanos</h2>
+        <p class="fs-5">Más información acerca de viajes</p>
+      </div>
+
+      <!-- Formulario de contacto -->
+      <form method="POST" data-netlify="true" action="#">  
+        <div class="mb-3">           
+          <input type="email" class="form-control" id="email" name="email" placeholder="Correo Electrónico">
+        </div>
+        <div class="mb-3">            
+          <input type="input" class="form-control" id="name" name="name" placeholder="Nombre">
+        </div>
+        <div class="mb-3">
+          <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+        </div>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-primary w-100 fs-5">Contacto</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  
 </body>
 </html>
