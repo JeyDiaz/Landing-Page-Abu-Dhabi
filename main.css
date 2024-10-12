@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+#menu a, button{
+    font-size: 18px !important;
+    font-weight: 600;
+    
+}
+
+#menu a{
+    color:#3f3f3f;
+    
+}
+
+.navbar-wrapper {
+    background-image: url(https://i.pinimg.com/originals/d3/38/95/d338958ff2bc814159af16dffa99bf00.gif);
+    width: 100%;
+}
+
+.navbar a:hover {
+    background-color: #f6bd66;
+}
